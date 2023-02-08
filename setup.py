@@ -5,7 +5,7 @@ setup(
    name='Test project',
    version='1.0',
    description='description bla bla',
-   author=['author name'],
-   author_email=['email@gmail.com'],
+   author=['Aleksandr Belov'],
+   author_email=['alexbelov22@gmail.com'],
    packages=['snippet']
 )
