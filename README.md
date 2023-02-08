@@ -28,7 +28,7 @@ python service/app.py
 
 ## Использование сервиса
 ### 1. Ping
-```
+```python
 import requests
 
 url = 'http://localhost:8080'
@@ -37,7 +37,7 @@ res = requests.get(url + '/api/v1/ping')
 print(res.content.decode())
 ```
 ### 2. Predict
-```
+```python
 import requests
 import json
 
