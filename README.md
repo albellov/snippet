@@ -26,6 +26,16 @@ pip install -e .
 python service/app.py
 ```
 
+## Docker image
+### 1. Build
+```
+docker build -t snippet-service:latest --no-cache .
+```
+### 2. Run
+```
+docker run -dp 8080:8080 snippet-service:latest
+```
+
 ## Использование сервиса
 ### 1. Ping
 ```python
